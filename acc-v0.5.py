@@ -20,11 +20,7 @@ def start():
             word = i[1]  
             word = ''.join(re.findall('[0-9]',word))
             l.append(word)
-        try:    
-            l.remove("")
-            l.remove('')
-        except ValueError:
-            pass
+        l= [i for i in l if i != '']
         
         print(l)
 
