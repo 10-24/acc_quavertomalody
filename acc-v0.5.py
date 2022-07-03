@@ -55,4 +55,7 @@ def start():
 while True:
     if keyboard.is_pressed('F1'):
         time.sleep(1)
-        start()
+        try:
+            start()
+        except:
+            continue
