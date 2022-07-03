@@ -21,7 +21,7 @@ def start():
             word = ''.join(re.findall('[0-9]',word))
             l.append(word)
         try:    
-            l.remove
+            l.remove("")
         except ValueError:
             pass
         
