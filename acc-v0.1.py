@@ -1,4 +1,4 @@
-
+#v0.1
 from __future__ import division
 import pyautogui
 
