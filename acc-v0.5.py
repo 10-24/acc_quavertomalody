@@ -22,6 +22,7 @@ def start():
             l.append(word)
         try:    
             l.remove("")
+            l.remove('')
         except ValueError:
             pass
         
